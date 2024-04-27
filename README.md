@@ -23,7 +23,7 @@ Superset Exploit Checker is a Python script that checks whether a Superset insta
 
 ## Usage
 Run the script 'check_exploitable.py' and follow the instructions
-python3 check_exploitable.py
+```python3 check_exploitable.py```
 
 
 
