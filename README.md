@@ -12,7 +12,7 @@ This script(get_vulnerableec2_nodes.py) authenticates using AWS credentials, ret
 This Rego script receives comprehensive information about an EC2 instance, including its security groups, associated pods, and Kubernetes services. It then processes this data to return a boolean value indicating the vulnerability status of the instance.
 
 ## Usage
-python3 get_vulnerableec2_nodes.py
+```python3 get_vulnerableec2_nodes.py```
 
 # 2. Superset Exploit Checker
 Superset Exploit Checker is a Python script that checks whether a Superset instance is vulnerable to a specific exploit by forging session cookies.
