@@ -2,6 +2,11 @@
 # 1. EC2 Instance Vulnerability Detection for Kubernetes Cluster on AWS
 This script authenticates using AWS credentials, retrieves EC2 instances associated with the specified EKS cluster, gathers relevant Kubernetes resources, and applies the Rego script for evaluation
 
+## Prerequisites
+- AWS CLI configured with appropriate permissions to access EC2 and EKS resources.
+- kubectl configured to access the Kubernetes cluster.
+- boto3, json and OPA (Open Policy Agent) installed on your system.
+
 # policy.rego
 This Rego script receives comprehensive information about an EC2 instance, including its security groups, associated pods, and Kubernetes services. It then processes this data to return a boolean value indicating the vulnerability status of the instance.
 
