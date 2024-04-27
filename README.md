@@ -14,6 +14,8 @@ This Rego script receives comprehensive information about an EC2 instance, inclu
 ## Usage
 ```python3 get_vulnerableec2_nodes.py```
 
+
+
 # 2. Superset Exploit Checker
 Superset Exploit Checker is a Python script that checks whether a Superset instance is vulnerable to a specific exploit by forging session cookies.
 
