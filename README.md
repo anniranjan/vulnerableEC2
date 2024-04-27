@@ -3,7 +3,7 @@
 
 This script(get_vulnerableec2_nodes.py) authenticates using AWS credentials, retrieves EC2 instances associated with the specified EKS cluster, gathers relevant Kubernetes resources, and applies the Rego script for evaluation
 
-## Prerequisites
+# Prerequisites
 - AWS CLI configured with appropriate permissions to access EC2 and EKS resources.
 - kubectl configured to access the Kubernetes cluster.
 - boto3, json and OPA (Open Policy Agent) installed on your system.
