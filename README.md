@@ -20,6 +20,8 @@ Superset Exploit Checker is a Python script that checks whether a Superset insta
 ## Prerequisites
 
 - Python 3.x
+- Apache Superset server
+- Docker and docker compose
 
 ## Usage
 Run the script 'check_exploitable.py' and follow the instructions 
