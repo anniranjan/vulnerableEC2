@@ -11,7 +11,7 @@ This script(get_vulnerableec2_nodes.py) authenticates using AWS credentials, ret
 # policy.rego
 This Rego script receives comprehensive information about an EC2 instance, including its security groups, associated pods, and Kubernetes services. It then processes this data to return a boolean value indicating the vulnerability status of the instance.
 
-# How to Execute
+## Usage
 python3 get_vulnerableec2_nodes.py
 
 # 2. Superset Exploit Checker
