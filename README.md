@@ -1,6 +1,7 @@
 
 # 1. EC2 Instance Vulnerability Detection for Kubernetes Cluster on AWS
-This script authenticates using AWS credentials, retrieves EC2 instances associated with the specified EKS cluster, gathers relevant Kubernetes resources, and applies the Rego script for evaluation
+
+This script(get_vulnerableec2_nodes.py) authenticates using AWS credentials, retrieves EC2 instances associated with the specified EKS cluster, gathers relevant Kubernetes resources, and applies the Rego script for evaluation
 
 ## Prerequisites
 - AWS CLI configured with appropriate permissions to access EC2 and EKS resources.
